@@ -1,4 +1,4 @@
-**[中文](README_CN.md) | English**
+**English | [中文](README_CN.md)**
 # EachId v2.0 — Minimalist, Powerful, 41M+ QPS
 
 <div align="left">
