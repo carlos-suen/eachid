@@ -37,7 +37,7 @@
         <url>https://github.com/Hammer-Suen/eachid</url>
     </scm>
 
-    <!-- 关键：只用 release 属性，彻底抛弃 source/target -->
+    <!-- 关键：release=Jdk9+， source/target=Jdk8+ -->
     <properties>
         <!-- <maven.compiler.release>8</maven.compiler.release> -->
          <maven.compiler.source>8</maven.compiler.source>
@@ -98,7 +98,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <!-- <configuration>
-                    <release>8</release> <!-- 唯一指定版本的地方 -->
+                    <release>8</release> 
                 </configuration> -->
             </plugin>
 
