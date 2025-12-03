@@ -1,4 +1,4 @@
-## EachId v2.0 —— 极简、极强、41M+ QPS
+## EachId [![GitHub release](https://img.shields.io/github/v/release/Hammer-Suen/eachid?include_prereleases&color=brightgreen)](https://github.com/Hammer-Suen/eachid/releases) —— 极简、极强、41M+ QPS
 
 <div align="center">
 
