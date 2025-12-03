@@ -403,7 +403,9 @@ public class EachIdTest {
         assertNotNull(info, "IdInfo不应为null");
         assertEquals(id, info.id, "IdInfo.id应与原始ID匹配");
         assertTrue(info.timestamp > 0, "时间戳应为正数");
-        assertEquals(1L, info.workerId, "WorkerId应为1（配置值）");
+        // 自动分配的 WorkerId 必须在合法范围内即可
+        assertTrue(info.workerId >= 0 && info.workerId < (1L << eachId.getWorkerIdBits()),
+                "WorkerId 必须在有效范围内 [0, " + ((1L << eachId.getWorkerIdBits()) - 1) + "]，实际值: " + info.workerId);
         assertEquals(0L, info.datacenterId, "数据中心ID应为0（默认值）");
         assertTrue(info.sequence >= 0, "序列号应为非负数");
 
