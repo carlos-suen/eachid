@@ -2,37 +2,38 @@ name: CI
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Set up JDK 17  # 你可以用 8 或 11，根据需要改
-      uses: actions/setup-java@v4
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-        cache: maven
-    
-    - name: Build with Maven
-      run: mvn -B clean compile --file pom.xml
-    
-    - name: Run Tests with Maven
-      run: mvn -B test jacoco:report --file pom.xml  # 包含 JaCoCo 覆盖率报告
-    
-    - name: Upload Test Results
-      uses: actions/upload-artifact@v4
-      if: always()
-      with:
-        name: test-results
-        path: |
-          target/surefire-reports/
-          target/site/jacoco/
-    
-   
+      - uses: actions/checkout@v4
+
+      # 关键修复：改成 JDK 8
+      - name: Set up JDK 8
+        uses: actions/setup-java@v4
+        with:
+          java-version: '8'
+          distribution: 'temurin'
+          cache: maven
+
+      # 只编译，不跑测试（先保证能过）
+      - name: Build with Maven
+        run: mvn -B clean compile
+
+      # 编译通过后再跑测试（去掉 jacoco:report，避免插件冲突）
+      - name: Test with Maven
+        run: mvn -B test
+
+      # 测试通过后上传报告（可选）
+      - name: Upload Test Reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: target/surefire-reports/
