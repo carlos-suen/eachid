@@ -147,7 +147,7 @@ EachId eachId = new EachId()
 System.out.println(eachId.getInfo());//打印配置信息
 
 控制台显示配置信息(可用年限,理论容量等):
-        ═══════════════════════════════════════
+═══════════════════════════════════════
 EachId Config
 Epoch           : 2025-01-01
 StepMs          : 100 ms
@@ -155,7 +155,7 @@ Bits            : 35(ts)+0(dc)+6(wk)+22(seq)=63 bits
 Timestamp Range : 34,359,738,367 steps × 100 ms = ~108 years 348 days
 Capacity        : 64 nodes | 4,194,304 IDs/100ms (≈41,943,040 IDs/sec theoretical)
 WorkerId        : 1 (max 63)
-        ═══════════════════════════════════════
+═══════════════════════════════════════
 ```
 
 #### **2. EachIdGroup完全自定义配置**
