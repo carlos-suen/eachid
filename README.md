@@ -12,7 +12,7 @@
 
 </div>
 
-> **EachId v2 —— 最务实且性能极致的一款ID生成器。**
+> **EachId —— 最务实且性能极致的一款ID生成器。**
 >
 不依赖任何数据库、Redis、Zookeeper、Etcd，也不搞复杂的 RingBuffer、CAS 退避或借未来时间。它只用最最朴实的 Java + synchronized，却在真实机器上跑出了单实例 41M+ QPS、64 线程 17M+ QPS 的恐怖性能，轻松吊打市面所有同类方案。
 
