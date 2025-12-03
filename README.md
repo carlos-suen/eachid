@@ -12,6 +12,8 @@
 ![Single Thread](https://img.shields.io/badge/Single%20Thread-41M%2B%20QPS-red)
 ![64 Threads](https://img.shields.io/badge/64%20Threads-17M%2B%20QPS-orange)
 ![EachIdGroup](https://img.shields.io/badge/EachIdGroup%208%20instances-140M%2B%20QPS-critical)
+![code-size](https://img.shields.io/github/languages/code-size/carlos-suen/eachid)
+
 
 </div>
 
