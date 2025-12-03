@@ -1,6 +1,6 @@
 ## EachId v2.0 —— 极简、极强、41M+ QPS
 
-<div align="right">
+<div align="left">
 
 ![JDK](https://img.shields.io/badge/JDK-8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
