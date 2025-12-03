@@ -185,7 +185,7 @@ EachIdGroup group = new EachIdGroup()
     EachId v2 就是我对分布式 ID 生成器的终极答案。
 ```
 
-GitHub: https://github.com/eachid/eachid  
+GitHub: [https://github.com/eachid/eachid](https://github.com/carlos-suen/eachid)  
 作者：Carlos Suen  
 时间：2025
 
