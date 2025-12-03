@@ -6,6 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 [![CI](https://github.com/carlos-suen/eachid/actions/workflows/ci.yml/badge.svg)](https://github.com/carlos-suen/eachid/actions/workflows/ci.yml)
 [![GitHub release](https://img.shields.io/github/v/release/Hammer-Suen/eachid?include_prereleases&color=brightgreen)](https://github.com/Hammer-Suen/eachid/releases)
+![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
 ![Maven Central](https://img.shields.io/maven-central/v/com.eachid/eachid-lock?color=brightgreen)
 ![Single Thread](https://img.shields.io/badge/Single%20Thread-41M%2B%20QPS-red)
 ![64 Threads](https://img.shields.io/badge/64%20Threads-17M%2B%20QPS-orange)
