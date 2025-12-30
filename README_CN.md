@@ -4,7 +4,7 @@
 <div align="left">
 
 ![JDK](https://img.shields.io/badge/JDK-8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI](https://github.com/carlos-suen/eachid/actions/workflows/ci.yml/badge.svg)](https://github.com/carlos-suen/eachid/actions/workflows/ci.yml)
 ![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
 [![GitHub release](https://img.shields.io/github/v/release/carlos-suen/eachid?include_prereleases&color=brightgreen)](https://github.com/carlos-suen/eachid/releases)
@@ -207,7 +207,7 @@ GitHub: [EachId](https://github.com/carlos-suen/eachid)
 
 **© 2024-Present [Carlos Suen](https://github.com/carlos-suen)**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 > 详细许可内容见项目根目录的 [LICENSE](LICENSE) 文件
 
