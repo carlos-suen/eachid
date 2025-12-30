@@ -207,7 +207,7 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 
 **© 2024-Present [Carlos Suen](https://github.com/carlos-suen)**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 > For detailed license terms, see the [LICENSE](LICENSE) file in the project root directory.
 
