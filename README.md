@@ -4,7 +4,7 @@
 <div align="left">
 
 ![JDK](https://img.shields.io/badge/JDK-8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/carlos-suen/eachid/LICENSE)
 [![CI](https://github.com/carlos-suen/eachid/actions/workflows/ci.yml/badge.svg)](https://github.com/carlos-suen/eachid/actions/workflows/ci.yml)
 ![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
 [![GitHub release](https://img.shields.io/github/v/release/carlos-suen/eachid?include_prereleases&color=brightgreen)](https://github.com/carlos-suen/eachid/releases)
